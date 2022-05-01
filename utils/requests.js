@@ -24,7 +24,7 @@ export default{
     },
     fetchRomanceMovies :{
         title : 'Romance',
-        url : `/discover/movie?api_key=${API_KEY}&with_genre=10749`
+        url : `/discover/movie?api_key=${API_KEY}&language=en-US&with_genre=10749`
     },
     fetchUpcoming :{
         title : 'Upcoming',
@@ -34,9 +34,9 @@ export default{
         title : 'Now Playing',
         url : `/discover/movie?api_key=${API_KEY}&with_genre=878`
     },
-    fetchWestern :{
+    fetchDocumentaries :{
         title : 'Western',
-        url : `/discover/movie?api_key=${API_KEY}&with_genre=37`
+        url : `/discover/movie?api_key=${API_KEY}&language=en-US&with_genres=99`
     },
     fetchAnimation :{
         title : 'Animation',
