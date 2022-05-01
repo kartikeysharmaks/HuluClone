@@ -24,7 +24,7 @@ export default{
     },
     fetchRomanceMovies :{
         title : 'Romance',
-        url : `/discover/movie?api_key=${API_KEY}&language=en-US&with_genre=10749`
+        url : `/discover/movie?api_key=${API_KEY}&language=en-US&with_genres=10749`
     },
     fetchUpcoming :{
         title : 'Upcoming',
