@@ -4,7 +4,7 @@ const API_KEY = process.env.NEXT_PUBLIC_API_KEY
 export default{
     fetchTrending :{
     title : 'Trending',
-    url : `/trending/all/weeks?api_key=${API_KEY}&language=en=US`
+    url : `/trending/all/weeks?api_key=${API_KEY}&language=en-US`
     },
     fetchTopRated :{
         title : 'Top Rated',
